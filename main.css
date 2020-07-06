@@ -207,5 +207,12 @@ header{
         display: none;
     }
     
-
+    .flexItem2{
+        font-size:12px;
+        min-width: 100px;
+        max-width: 100px;
+    }
+    #cases{
+        padding:0px;
+    }
 }

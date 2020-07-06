@@ -122,7 +122,7 @@ $.ajax({
     
     Object.keys(cases).map(i=>{
         if(cases[i] == 0)return
-        let li = $("<div class='flexItem2'>" +  (i.toUpperCase()).replace("_"," ") + "<br/>"+ cases[i] +"</div>")
+        let li = $("<div class='flexItem2'>" +  ((i.toUpperCase()).replace("_"," ")).replace("CASES","") + "<br/>"+ "<div style='font-weight:bold;margin-top:7px'>" + cases[i] + "</div>" +"</div>")
         li.appendTo("#cases")
     })
    
