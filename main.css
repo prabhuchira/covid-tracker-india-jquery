@@ -1,3 +1,6 @@
+/* */
+* {}
+
 h1{
     padding:0px;
     
@@ -39,7 +42,7 @@ h1{
     /* flex-direction: row; */
     align-items: center;
     /* justify-content: center; */
-    width:100%;
+    /* width:100%; */
     flex-wrap: wrap;
     /* background:green; */
     justify-content: center;
@@ -176,11 +179,15 @@ header{
     font-weight: bold;
 }
 
-footer{
+.footer{
     text-align: center;
     background-color: #204051;
     padding:20px 0px;
-    color:white
+    color:white;
+    /* position:sticky;
+    bottom:0px; */
+    width:100%;
+    /* bottom:0px; */
 }
 
 
