@@ -1,0 +1,205 @@
+h1{
+    padding:0px;
+    
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    /* background-color: 	#e4e3e3; */
+    background-color: 	white;
+    margin:0px;
+}
+.listStyle{
+    list-style: none;
+    
+}
+
+h1{
+    font-size: xx-large;
+}
+
+.liStyle{
+    /* display:inline; */
+    padding:10px;
+    background-color: green;
+    color:white;
+    margin-bottom: 10px;
+    /* padding:10px; */
+}
+
+.heading{
+    color:#3b6978;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.flexBox{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    /* justify-content: center; */
+    width:100%;
+    flex-wrap: wrap;
+    /* background:green; */
+    justify-content: center;
+    padding:10px;
+    margin:24px 0px;
+}   
+
+
+
+.flexItem{
+    flex-grow: 1;
+    background:#204051;
+    color:white;
+    margin-right:20px;
+    text-align:center;
+    padding:15px 0px;
+    margin-bottom: 25px;
+    min-width: 100px;
+    /* max-width:100px; */
+    max-width: 100px;
+    font-family:"Roboto",sans-serif;
+    border-radius:10px;
+    /* border:2px solid rgb(196, 129, 196); */
+    
+    cursor: pointer;
+    
+}
+
+.flexItem2{
+    flex-grow: 1;
+    background:#3b6978;
+    
+    color:white;
+    margin-right:20px;
+    text-align:center;
+    padding:15px 0px;
+    /* margin-bottom: 25px; */
+    min-width: 160px;
+    /* max-width:100px; */
+    max-width: 160px;
+    font-family:"Roboto",sans-serif;
+    /* border:2px solid rgb(196, 129, 196); */
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    font-weight: 400;
+    margin:10px 20px;
+}
+
+.flexItem:hover{
+    /* border-radius:3px; */
+    box-shadow: 1px 1px 3px black;
+    transition: box-shadow linear 0.2s;
+    background:#436774
+}
+
+
+hr{
+    margin:0px 0px; 
+    opacity:0.2;
+    /* border: goldenrod; */
+}
+
+#stateList{
+    list-style: square;
+    color:#3b6978;
+    position:relative;
+}
+.blackItem {
+    font-family: "Roboto",sans-serif;
+}
+
+.blackItem:hover{
+    color:#3b6978;
+    font-size: 18px;
+    margin-left:20px;
+    padding:10px 0px;
+    transition: margin-left linear 0.2s ;
+    list-style:georgian;
+}
+
+#wholeList{
+    color:#3b6978;
+    /* font-size:24px; */
+}
+
+
+.flexItem:active{
+    background:'green'
+}
+
+#stateCodes{
+    padding:20px;
+    text-align: center;
+}
+.stateCode{
+    color:#3b6978;
+    /* margin-right: 20px; */
+    padding-right:15px;
+    font-size: 13px;
+}
+
+.myList{
+    /* position: absolute;
+    list-style: none;
+    left:200px; */
+    list-style: none;
+    left: 229px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    border-left: 3px solid;
+    padding-left: 20px;
+    /* transition: padding-left linear 2s; */
+
+}
+.myList:hover{
+    /* transition: padding-left linear 0.2s */
+}
+
+
+header{
+    background:#204051;
+    margin-bottom: 20px;
+    color:white;
+    text-align:center;
+    padding:10px 0px;
+}
+
+
+.conText{
+    font-size:10px;
+}
+
+#positive,#deceased,#recovered{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: #204051;
+    padding:20px 0px;
+    color:white
+}
+
+
+
+@media screen and (max-width: 480px){
+    .heading{
+        font-size:25px;
+    }
+    h4{
+        font-size:13px;
+    }
+
+    #myList,#districtCases,h3{
+        font-size:14px;
+    }
+
+    #dailyCount{
+        display: none;
+    }
+    
+
+}

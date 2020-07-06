@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Corona Tracker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <style>
+         
+            
+        </style>
+    </head>
+    <body>  
+        <header>
+        API From <a target="_blank" style="color:white"href="https://api.covid19india.org/">https://api.covid19india.org/</a>
+        <div style="margin-top:10px;">
+            <span id="dailyCount">Daily Count:</span>
+            <span>Positive: <span id="positive">21</span></span>
+            <span>Deceased: <span id="deceased">21</span></span>
+            <span>Recovered: <span id="recovered">21</span></span>
+
+        </div>
+        </header>
+        <div style="position:relative">
+            
+            <h1 class="heading">
+                <img src="images/covid-color.png" style="width: 55px;position: relative;top:15px"  />
+                Covid Tracker - India</h1>
+        </div>
+        <h4 style="text-align: center;color:#3b6978;font-weight: lighter;">* Select one of your State to get your state covid results</h4>
+        <!-- <ul id="list" class='listStyle'>
+            
+        </ul> -->
+        <hr />
+        <!-- <div>
+            Confirmed Cases : 
+        </div> -->
+        <div>
+            
+
+          
+        </div>
+        <div class="flexBox" id="cases">
+
+                       
+            
+        </div>
+        
+      
+
+        <hr/>
+        <div class="flexBox" id="list">
+                       
+           
+        </div>
+        
+        <div id="stateCodes" >
+            *
+            <!-- State Codes -->
+        </div>
+        
+
+        <div style="position: relative;padding:20px">
+            <hr>
+            <h3 style="color:teal">Districts:</h3>
+           
+
+            <ul id="stateList">
+                <!-- <li>One</li>
+                <li>Two</li>
+                <li>Three</li> -->
+            </ul>
+
+            
+
+            <div style="right: 50px;position: absolute;top:70px;width: 350px;" id="wholeList" >
+               
+                <ul id="districtCases" style="list-style: none;">
+                    <!-- Win -->
+                </ul>
+            </div>
+        </div>
+
+        
+        <footer>
+            &#xa9;            Developed by prabhuchira
+        </footer>
+      
+    </body>
+</html>
+
