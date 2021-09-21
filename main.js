@@ -15,7 +15,7 @@ var cases = {
 }
 
 $.ajax({
-    url:"https://api.covid19india.org/state_district_wise.json",
+    url:"https://data.covid19india.org/state_district_wise.json",
     type:"GET",
     dataType:"json"
 
